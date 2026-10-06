@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.bolt/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploads / Runtime files
+uploads/
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/*.timestamp-*.mjs
